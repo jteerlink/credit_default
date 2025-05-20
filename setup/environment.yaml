@@ -1,0 +1,28 @@
+name: empower
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - missingno
+  - scipy
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  # - tensorflow
+  - joblib
+  - fastapi
+  - uvicorn
+  - pydantic
+  - pip
+  - ipykernel 
+  - plotly
+  
+  - pip:
+      - optuna
+      - requests
