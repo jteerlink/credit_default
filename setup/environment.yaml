@@ -12,7 +12,6 @@ dependencies:
   - missingno
   - scipy
   - scikit-learn
-  - xgboost
   - lightgbm
   # - tensorflow
   - joblib
@@ -26,3 +25,4 @@ dependencies:
   - pip:
       - optuna
       - requests
+      - xgboost
